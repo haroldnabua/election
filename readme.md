@@ -1,0 +1,1 @@
+CRUD-based Voting System (PHP + MySQL (MariaDB))
