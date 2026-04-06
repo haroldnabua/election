@@ -92,7 +92,7 @@ $result = mysqli_query($conn, "SELECT * FROM positions WHERE isDeleted = 0");
             <td>{$row['numOfPositions']}</td>
             <td>{$row['posStat']}</td>
             <td><a href='delete_pos.php?id={$row['posID']}'>Delete | </a>
-            <a href='edit_pos.php?id={$row['posID']}'>Update</a></td>
+            <a href='update_pos.php?id={$row['posID']}'>Update</a></td>
             </tr>
             ";
         }
